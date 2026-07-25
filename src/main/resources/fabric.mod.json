@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "vinyl-vibrance",
+	"version": "${version}",
+	"name": "Vinyl Vibrance",
+	"description": "Vanilla+ mod based around music discs!",
+	"authors": [
+		"HuntedZenith"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/vinyl-vibrance/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.huntedzenith.vinylvibrance.VinylVibrance"
+		],
+		"client": [
+			"io.github.huntedzenith.vinylvibrance.client.VinylVibranceClient"
+		]
+	},
+	"mixins": [
+		"vinyl-vibrance.mixins.json",
+		{
+			"config": "vinyl-vibrance.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

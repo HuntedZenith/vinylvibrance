@@ -2,8 +2,10 @@ package io.github.huntedzenith.vinylvibrance;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.resources.Identifier;
 
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,6 +24,15 @@ public class VinylVibrance implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+
+		ModItem.initialize();
+		ModLootTables.initialize();
+
+		CreativeModeTabEvents
+				.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+				.register(output -> {
+					output.accept(ModItem.DREAMS);
+				});
 	}
 
 	public static Identifier id(String path) {

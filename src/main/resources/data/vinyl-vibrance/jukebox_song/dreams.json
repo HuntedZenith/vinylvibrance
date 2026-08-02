@@ -1,0 +1,10 @@
+{
+  "comparator_output": 10,
+  "description": {
+    "translate": "jukebox_song.vinyl-vibrance.dreams"
+  },
+  "length_in_seconds": 74.0,
+  "sound_event": {
+    "sound_id":"vinyl-vibrance:music_disc_dreams"
+  }
+}

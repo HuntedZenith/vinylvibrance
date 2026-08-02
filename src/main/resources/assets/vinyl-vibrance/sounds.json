@@ -1,0 +1,11 @@
+{
+  "music_disc_dreams": {
+    "category": "record",
+    "sounds": [
+      {
+        "name":"vinyl-vibrance:music_disc/dreams",
+        "stream": true
+      }
+    ]
+  }
+}

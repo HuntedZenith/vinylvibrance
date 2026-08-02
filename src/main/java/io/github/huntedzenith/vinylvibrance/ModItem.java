@@ -41,6 +41,16 @@ public class ModItem {
                             .jukeboxPlayable(ModJukeboxSongs.DREAMS)
             );
 
+    public static final Item SAILS =
+            register(
+               "music_disc_sails",
+               VinylDiscItem::new,
+               new Item.Properties()
+                       .stacksTo(1)
+                       .rarity(Rarity.UNCOMMON)
+                       .jukeboxPlayable(ModJukeboxSongs.SAILS)
+            );
+
     public static void initialize() {
         VinylVibrance.LOGGER.info("Initializing items...");
     }

@@ -24,4 +24,6 @@ public class ModSoundEvents {
     public static final SoundEvent MUSIC_DISC_DREAMS =
             register("music_disc_dreams");
 
+    public static final SoundEvent MUSIC_DISC_SAILS =
+            register("music_disc_sails");
 }

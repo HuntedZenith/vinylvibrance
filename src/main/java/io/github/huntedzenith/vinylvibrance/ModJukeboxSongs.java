@@ -10,4 +10,10 @@ public class ModJukeboxSongs {
                     Registries.JUKEBOX_SONG,
                     VinylVibrance.id("dreams")
             );
+
+    public static final ResourceKey<JukeboxSong> SAILS =
+            ResourceKey.create(
+                    Registries.JUKEBOX_SONG,
+                    VinylVibrance.id("sails")
+            );
 }

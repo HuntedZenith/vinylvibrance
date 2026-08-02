@@ -16,5 +16,14 @@
         "stream": true
       }
     ]
+  },
+  "music_disc_purpur": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "vinyl-vibrance:music_disc/purpur",
+        "stream": true
+      }
+    ]
   }
 }

@@ -56,5 +56,13 @@ public class ModLootTables {
                     ModItem.SAILS,
                     0.05f
             );
+
+            addItemToLootTable(
+                    BuiltInLootTables.END_CITY_TREASURE,
+                    key,
+                    tableBuilder,
+                    ModItem.PURPUR,
+                    0.1f
+            );
         });
     }}

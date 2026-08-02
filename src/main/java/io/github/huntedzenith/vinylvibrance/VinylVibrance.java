@@ -33,6 +33,7 @@ public class VinylVibrance implements ModInitializer {
 				.register(output -> {
 					output.accept(ModItem.DREAMS);
 					output.accept(ModItem.SAILS);
+					output.accept(ModItem.PURPUR);
 				});
 	}
 

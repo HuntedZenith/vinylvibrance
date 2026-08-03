@@ -26,6 +26,7 @@ public class VinylVibrance implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
 		ModItem.initialize();
+		ModTrimPatterns.initialize();
 		ModLootTables.initialize();
 
 		CreativeModeTabEvents

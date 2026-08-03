@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_trim",
+  "addition": "#minecraft:trim_materials",
+  "base": "#minecraft:trimmable_armor",
+  "pattern": "vinyl-vibrance:record",
+  "template": "vinyl-vibrance:record_armor_trim"
+}

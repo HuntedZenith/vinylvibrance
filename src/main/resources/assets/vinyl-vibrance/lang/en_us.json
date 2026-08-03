@@ -7,6 +7,9 @@
   "jukebox_song.vinyl-vibrance.purpur": "SuperSlyFoxy - purpur",
 
   "item.vinyl-vibrance.blank_music_disc": "Blank Disc",
-  "jukebox_song.vinyl-vibrance.blank_disc_crackle": "SoundReality - blank"
+  "jukebox_song.vinyl-vibrance.blank_disc_crackle": "SoundReality - blank",
+
+  "item.vinyl-vibrance.record_armor_trim": "Record Armor Trim",
+  "trim_pattern.vinyl-vibrance.record": "Record Trim"
 }
 

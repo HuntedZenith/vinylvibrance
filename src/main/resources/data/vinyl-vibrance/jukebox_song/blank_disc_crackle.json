@@ -1,0 +1,10 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "jukebox_song.vinyl-vibrance.blank_disc_crackle"
+  },
+  "length_in_seconds": 27.0,
+  "sound_event": {
+    "sound_id":"vinyl-vibrance:blank_disc_crackle"
+  }
+}

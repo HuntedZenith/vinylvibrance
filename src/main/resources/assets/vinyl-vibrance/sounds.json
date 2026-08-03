@@ -25,5 +25,14 @@
         "stream": true
       }
     ]
+  },
+  "blank_disc_crackle": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "vinyl-vibrance:music_disc/blank_disc_crackle",
+        "stream": true
+      }
+    ]
   }
 }

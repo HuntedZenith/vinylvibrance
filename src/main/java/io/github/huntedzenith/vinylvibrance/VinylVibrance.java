@@ -35,6 +35,12 @@ public class VinylVibrance implements ModInitializer {
 					output.accept(ModItem.SAILS);
 					output.accept(ModItem.PURPUR);
 				});
+
+		CreativeModeTabEvents
+				.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
+				.register(output -> {
+					output.accept(ModItem.BLANK_MUSIC_DISC);
+				});
 	}
 
 	public static Identifier id(String path) {

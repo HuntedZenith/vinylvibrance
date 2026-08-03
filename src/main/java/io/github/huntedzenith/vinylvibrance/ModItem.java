@@ -61,6 +61,17 @@ public class ModItem {
                             .jukeboxPlayable(ModJukeboxSongs.PURPUR)
             );
 
+
+    public static final Item BLANK_MUSIC_DISC =
+            register(
+                    "blank_music_disc",
+                    VinylDiscItem::new,
+                    new Item.Properties()
+                            .stacksTo(1)
+                            .rarity(Rarity.COMMON)
+                            .jukeboxPlayable(ModJukeboxSongs.BLANK_MUSIC_DISC)
+            );
+
     public static void initialize() {
         VinylVibrance.LOGGER.info("Initializing items...");
     }

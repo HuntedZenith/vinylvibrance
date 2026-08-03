@@ -5,6 +5,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.SmithingTemplateItem;
 
 import java.util.function.Function;
@@ -30,7 +31,9 @@ public class ModTrimPatterns {
             register(
                     "record_armor_trim",
                     properties -> SmithingTemplateItem.createArmorTrimTemplate(properties),
-                    new Item.Properties().stacksTo(64)
+                    new Item.Properties()
+                            .stacksTo(64)
+                            .rarity(Rarity.RARE)
             );
 
 

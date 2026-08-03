@@ -41,6 +41,7 @@ public class VinylVibrance implements ModInitializer {
 				.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
 				.register(output -> {
 					output.accept(ModItem.BLANK_MUSIC_DISC);
+					output.accept(ModTrimPatterns.RECORD);
 				});
 	}
 

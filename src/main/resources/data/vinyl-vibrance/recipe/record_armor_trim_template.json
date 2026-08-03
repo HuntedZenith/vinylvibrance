@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "#N#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:diamond",
+    "R": "vinyl-vibrance:record_armor_trim",
+    "N": "minecraft:note_block"
+  },
+  "result": {
+    "id": "vinyl-vibrance:record_armor_trim",
+    "count": 2
+  }
+}

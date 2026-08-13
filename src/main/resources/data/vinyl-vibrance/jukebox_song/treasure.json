@@ -1,0 +1,10 @@
+{
+  "comparator_output": 9,
+  "description": {
+    "translate": "jukebox_song.vinyl-vibrance.treasure"
+  },
+  "length_in_seconds": 173.0,
+  "sound_event": {
+    "sound_id":"vinyl-vibrance:music_disc_treasure"
+  }
+}

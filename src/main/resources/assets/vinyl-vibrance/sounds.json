@@ -35,6 +35,15 @@
       }
     ]
   },
+  "music_disc_treasure": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "vinyl-vibrance:music_disc/treasure",
+        "stream": true
+      }
+    ]
+  },
   "blank_disc_crackle": {
     "category": "record",
     "sounds": [

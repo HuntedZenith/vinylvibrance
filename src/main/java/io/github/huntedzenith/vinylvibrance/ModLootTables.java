@@ -2,6 +2,7 @@ package io.github.huntedzenith.vinylvibrance;
 
 import net.fabricmc.fabric.api.loot.v3.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.storage.loot.BuiltInLootTables;
@@ -66,6 +67,12 @@ public class ModLootTables {
                     0.1f
             );
 
-
+            addItemToLootTable(
+                    BuiltInLootTables.BURIED_TREASURE,
+                    key,
+                    tableBuilder,
+                    ModItem.TREASURE,
+                    0.1f
+            );
         });
     }}

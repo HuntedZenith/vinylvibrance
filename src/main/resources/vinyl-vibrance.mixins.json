@@ -3,7 +3,8 @@
 	"package": "io.github.huntedzenith.vinylvibrance.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"EndCrystalMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

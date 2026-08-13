@@ -26,6 +26,15 @@
       }
     ]
   },
+  "music_disc_cannons": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "vinyl-vibrance:music_disc/cannons",
+        "stream": true
+      }
+    ]
+  },
   "blank_disc_crackle": {
     "category": "record",
     "sounds": [

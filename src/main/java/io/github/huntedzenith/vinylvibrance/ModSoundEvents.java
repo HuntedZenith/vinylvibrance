@@ -30,6 +30,8 @@ public class ModSoundEvents {
     public static final SoundEvent MUSIC_DISC_PURPUR =
             register("music_disc_purpur");
 
+    public static final SoundEvent MUSIC_DISC_CANNONS =
+            register("music_disc_cannons");
 
     public static final SoundEvent BLANK_DISC_CRACKLE =
             register("blank_disc_crackle");

@@ -1,0 +1,10 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.vinyl-vibrance.cannons"
+  },
+  "length_in_seconds": 233,
+  "sound_event": {
+    "sound_id":"vinyl-vibrance:music_disc_cannons"
+  }
+}

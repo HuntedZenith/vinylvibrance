@@ -8,6 +8,7 @@ import net.minecraft.world.level.storage.loot.BuiltInLootTables;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
+import net.minecraft.world.entity.boss.enderdragon.EndCrystal;
 
 import io.github.huntedzenith.vinylvibrance.ModItem;
 import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
@@ -64,5 +65,7 @@ public class ModLootTables {
                     ModItem.PURPUR,
                     0.1f
             );
+
+
         });
     }}

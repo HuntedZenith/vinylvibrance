@@ -44,6 +44,15 @@
       }
     ]
   },
+  "music_disc_storm": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "vinyl-vibrance:music_disc/storm",
+        "stream": true
+      }
+    ]
+  },
   "blank_disc_crackle": {
     "category": "record",
     "sounds": [

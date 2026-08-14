@@ -74,5 +74,13 @@ public class ModLootTables {
                     ModItem.TREASURE,
                     0.1f
             );
+
+            addItemToLootTable(
+                    BuiltInLootTables.CHARGED_CREEPER,
+                    key,
+                    tableBuilder,
+                    ModItem.STORM,
+                    0.5f
+            );
         });
     }}

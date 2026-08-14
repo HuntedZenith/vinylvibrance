@@ -37,6 +37,7 @@ public class VinylVibrance implements ModInitializer {
 					output.accept(ModItem.PURPUR);
 					output.accept(ModItem.CANNONS);
 					output.accept(ModItem.TREASURE);
+					output.accept(ModItem.STORM);
 				});
 
 		CreativeModeTabEvents

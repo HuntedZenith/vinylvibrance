@@ -81,6 +81,16 @@ public class ModItem {
                             .jukeboxPlayable(ModJukeboxSongs.TREASURE)
             );
 
+    public static final Item STORM =
+            register(
+                    "music_disc_storm",
+                    VinylDiscItem::new,
+                    new Item.Properties()
+                            .stacksTo(1)
+                            .rarity(Rarity.UNCOMMON)
+                            .jukeboxPlayable(ModJukeboxSongs.STORM)
+            );
+
     public static final Item BLANK_MUSIC_DISC =
             register(
                     "blank_music_disc",

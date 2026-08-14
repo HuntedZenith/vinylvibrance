@@ -35,6 +35,12 @@ public class ModJukeboxSongs {
                     VinylVibrance.id("treasure")
             );
 
+    public static final ResourceKey<JukeboxSong> STORM =
+            ResourceKey.create(
+                    Registries.JUKEBOX_SONG,
+                    VinylVibrance.id("storm")
+            );
+
     public static final ResourceKey<JukeboxSong> BLANK_MUSIC_DISC =
             ResourceKey.create(
                     Registries.JUKEBOX_SONG,

@@ -33,6 +33,7 @@ A vanilla-friendly Fabric mod that expands Minecraft's music disc collection wit
 
 ### Textures, Code: HuntedZenith
 Music: ventrunt, SuperSlyFoxy, Caleb Padilla, Tchaikovsky
+
 Additional Sounds: SoundReality
 
 ## License

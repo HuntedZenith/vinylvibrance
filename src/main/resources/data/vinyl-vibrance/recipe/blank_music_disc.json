@@ -1,14 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " . ",
+    " M ",
     " _ ",
-    "###"
+    "#V#"
   ],
   "key": {
-    ".": "minecraft:iron_nugget",
+    "M": "#minecraft:metal_nuggets",
     "_": "minecraft:paper",
-    "#": "minecraft:amethyst_shard"
+    "#": "minecraft:amethyst_shard",
+    "V": "vinyl-vibrance:vinyl"
   },
   "result": {
     "id": "vinyl-vibrance:blank_music_disc"

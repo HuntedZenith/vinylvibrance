@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " o ",
+    "#I#",
+    " o "
+  ],
+  "key": {
+    "o": "minecraft:amethyst_shard",
+    "#": "minecraft:resin_clump",
+    "I": "minecraft:ink_sac"
+  },
+  "result": {
+    "id": "vinyl-vibrance:vinyl",
+    "count": 3
+  }
+}

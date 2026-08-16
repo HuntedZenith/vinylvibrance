@@ -16,6 +16,8 @@
   "jukebox_song.vinyl-vibrance.blank_disc_crackle": "--blank--",
 
   "item.vinyl-vibrance.record_armor_trim": "Record Armor Trim",
-  "trim_pattern.vinyl-vibrance.record": "Record Trim"
+  "trim_pattern.vinyl-vibrance.record": "Record Trim",
+  "item.vinyl-vibrance.notes_armor_trim": "Notes Armor Trim",
+  "trim_pattern.vinyl-vibrance.notes": "Notes Trim"
 }
 

@@ -36,6 +36,15 @@ public class ModTrimPatterns {
                             .rarity(Rarity.RARE)
             );
 
+    public static Item NOTES =
+            register(
+                    "notes_armor_trim",
+                    properties -> SmithingTemplateItem.createArmorTrimTemplate(properties),
+                    new Item.Properties()
+                            .stacksTo(64)
+                            .rarity(Rarity.RARE)
+            );
+
 
     public static void initialize() {
         VinylVibrance.LOGGER.info("Initializing trims...");

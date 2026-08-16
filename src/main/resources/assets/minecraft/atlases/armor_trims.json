@@ -22,7 +22,9 @@
           "resin": "minecraft:trims/color_palettes/resin" },
         "textures": [
         "vinyl-vibrance:trims/entity/humanoid/record",
-        "vinyl-vibrance:trims/entity/humanoid_leggings/record"
+        "vinyl-vibrance:trims/entity/humanoid_leggings/record",
+        "vinyl-vibrance:trims/entity/humanoid/notes",
+        "vinyl-vibrance:trims/entity/humanoid_leggings/notes"
       ]
     }
   ]

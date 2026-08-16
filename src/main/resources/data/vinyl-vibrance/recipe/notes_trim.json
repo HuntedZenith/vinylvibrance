@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_trim",
+  "addition": "#minecraft:trim_materials",
+  "base": "#minecraft:trimmable_armor",
+  "pattern": "vinyl-vibrance:notes",
+  "template": "vinyl-vibrance:notes_armor_trim"
+}

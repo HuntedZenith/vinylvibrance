@@ -82,5 +82,18 @@ public class ModLootTables {
                     ModItem.STORM,
                     0.5f
             );
+
+
+
+
+            //trims tables
+
+            addItemToLootTable(
+                    BuiltInLootTables.ANCIENT_CITY_ICE_BOX,
+                    key,
+                    tableBuilder,
+                    ModTrimPatterns.NOTES,
+                    0.5f
+            );
         });
     }}

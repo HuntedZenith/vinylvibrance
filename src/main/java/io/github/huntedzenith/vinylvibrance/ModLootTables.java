@@ -83,6 +83,14 @@ public class ModLootTables {
                     0.5f
             );
 
+            addItemToLootTable(
+                    BuiltInLootTables.BABY_VILLAGER_GIFT,
+                    key,
+                    tableBuilder,
+                    ModItem.TOY_BOX,
+                    0.14f
+            );
+
 
 
 

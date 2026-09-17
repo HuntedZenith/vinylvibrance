@@ -91,6 +91,16 @@ public class ModItem {
                             .jukeboxPlayable(ModJukeboxSongs.STORM)
             );
 
+    public static final Item TOY_BOX =
+            register(
+                    "music_disc_toy_box",
+                    VinylDiscItem::new,
+                    new Item.Properties()
+                            .stacksTo(1)
+                            .rarity(Rarity.UNCOMMON)
+                            .jukeboxPlayable(ModJukeboxSongs.TOY_BOX)
+            );
+
     public static final Item BLANK_MUSIC_DISC =
             register(
                     "blank_music_disc",

@@ -39,6 +39,9 @@ public class ModSoundEvents {
     public static final SoundEvent MUSIC_DISC_STORM =
             register("music_disc_storm");
 
+    public static final SoundEvent MUSIC_DISC_TOY_BOX =
+            register("music_disc_toy_box");
+
     public static final SoundEvent BLANK_DISC_CRACKLE =
             register("blank_disc_crackle");
 }

@@ -53,6 +53,15 @@
       }
     ]
   },
+  "music_disc_toy_box": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "vinyl-vibrance:music_disc/toy_box",
+        "stream": true
+      }
+    ]
+  },
   "blank_disc_crackle": {
     "category": "record",
     "sounds": [
